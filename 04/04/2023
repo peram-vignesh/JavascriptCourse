@@ -1,0 +1,21 @@
+Example 1: page title
+Good page titles are particularly important for orientation — 
+to help people know where they are and move between pages 
+open in their browser. The first thing screen readers say w
+hen the user goes to a different Web page is the page title. In the 
+Web page markup, they are the <title> within the <head>.
+
+Check #1: There is a title that adequately
+and briefly describes the content of a page, and 
+that it distinguishes the page from other Web page
+
+Example 2: image text alternatives ("alt text")
+Text alternatives ("alt text") are a primary way of m
+aking visual information accessible, because they can
+be rendered through any sensory modality (for example, visual, auditory or tactile) 
+to match the needs of the user. Providing text alternatives allows the information 
+to be rendered in a variety of ways by a variety of user agents. For example,
+a person who cannot see a picture can have the text alternative read aloud using synthesized speech.
+Check #2: Every image has alt with appropriate alternative text.
+Example: See the W3C logo below. It contains a link that points to the 
+W3C Web site. The text alternative is going to be a brief description of the link target.
