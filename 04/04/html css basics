@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+     <head> 
+           <title> My name is vignesh</title>
+     </head>
+     <body> 
+        <h1> I am doing a course on java script</h1>
+     </body>
+</html>
+
+
+manadatory:<!DOCTYPE html>,<html>
+openers:<head> or < body>
+in head: <title>
+in body:<h1>....<p>
+image syntax:<IMG (VARIABLE NAME):LINK Of the picture and width and alt>
+ordered list:<ol>(with numbers)(<li> tag)
+unordered list<ul>(numbered)(<li> tag)
+skip line:<br>
+
+css
+
+h1 {
+  color:;
+  background-color:;
+  border:number of px color;
+  padding: 5px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h2 {
+  color:;
+}
+
+p, h1, h2 {
+  font-family:  
+}
+img {
+    box-shadow: 10px 10px h1 {
+  color:red;
+  background-color:lightGreen;
+  border:12px solid violet;
+  padding: 5px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h2 {
+  color:brown;
+}
+
+p, h1, h2 {
+  font-family: cursive 
+}
+img {
+    box-shadow: number of px number of px  number of px color
+
+p, img {
+  margin-left:number of px ;
+}
+}
+
+.funny {
+  color:;
+  font-family: 
+  font-size::number of px 
+  font-family: 'caveat';
+  font-size::number of px ;
+  text-shadow: :number of px :number of px :number of px  rgba(150, 150, 150, 1);
+}
+
