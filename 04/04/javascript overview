@@ -1,0 +1,30 @@
+IMPORTING MODULES using javascript through html:
+                <script src=" link"></script>
+                point: generally modules are imported from "d3js-website"
+calling functions in javascript:
+                  var <variable name> = varibale of array of variables
+                  functionname(variable name):
+css cahnge using script:
+         <script>
+    function changeTitleCSSStyle() {
+      var title = document.querySelector("#mainTitle");
+      title.style.color = 'black';
+      title.style.backgroundColor = "darkgreen";
+      title.style.border = "7px dotted black";
+    }
+  </script>
+  
+  html change using script:
+               <script>
+    function changeTitle() {
+      var title = document.querySelector("#mainTitle");
+      title.innerHTML += "<br>This new title has been changed from JavaScript";
+    }
+  </script>
+  
+  <script>
+    function changeline() {
+      var line = document.querySelector("p");
+      line.innerHTML += "<br>This has been changed by me from JavaScript!";
+    }
+  </script>
