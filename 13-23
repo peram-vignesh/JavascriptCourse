@@ -1,0 +1,87 @@
+experimented and learned how to execute given code it on sublime text editor:
+the code ws the give by the tutor
+  html:
+      <!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <title>Plotting functions in JavaScript using the 
+    function plot library</title>
+  <meta charset="utf-8"/>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"></script>
+</head>
+<body onload="plot();">
+  <h2>Interactive function plotter</h2>
+  <section id="plotSettings">
+  <label for="xMin">xMin: </label>
+  value: <input type=number id="xMin" value=0 step=0.5
+                oninput="plot();">
+    <p></p>
+  <label for="xMax">xMax: </label>
+  value: <input type=number id="xMax" value=6.28 step=0.5
+                oninput="plot();">
+
+  <p></p>
+ <label for="yMin">yMin: </label>
+  value: <input type=number id="yMin" value=-1 step=0.5
+                oninput="plot();">
+    <p></p>
+  <label for="yMax">yMax: </label>
+  value: <input type=number id="yMax" value=1 step=0.5
+                oninput="plot();">
+    <p></p>
+  <label for="color">Color: </label>
+  value: <input type=color id="color"
+                onchange="plot();">
+  <!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <title>Plotting functions in JavaScript using the 
+    function plot library</title>
+  <meta charset="utf-8"/>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"></script>
+</head>
+<body onload="plot();">
+  <h2>Interactive function plotter</h2>
+  <section id="plotSettings">
+  <label for="xMin">xMin: </label>
+  value: <input type=number id="xMin" value=0 step=0.5
+                oninput="plot();">
+    <p></p>
+  <label for="xMax">xMax: </label>
+  value: <input type=number id="xMax" value=6.28 step=0.5
+                oninput="plot();">
+
+  <p></p>
+ <label for="yMin">yMin: </label>
+  value: <input type=number id="yMin" value=-1 step=0.5
+                oninput="plot();">
+    <p></p>
+  <label for="yMax">yMax: </label>
+  value: <input type=number id="yMax" value=1 step=0.5
+                oninput="plot();">
+    <p></p>
+  <label for="color">Color: </label>
+  value: <input type=color id="color"
+                onchange="plot();">
+                
+   basics of javascript:
+   
+  An expression is a small piece of code used to produce a value.
+
+For example, the expression 3 + 5 produces the value 8, and the value 11 alone
+is also an expression. Within an expression, we can find values, variables, operators, 
+and expressions. The first two have been already described above, so all that's left are operators.
+
+In JavaScript, an operator can be unary or binary (plus one ternary operator). A unary operator 
+is applied to one expression. It can be prefixed or suffixed.
+
+An expression is a small piece of code used to produce a value.
+
+For example, the expression 3 + 5 produces the value 8, and the value 11 
+alone is also an expression. Within an expression, we can find values, variables, 
+operators, and expressions. The first two have been already described above, so all that's left are operators.
+
+In JavaScript, an operator can be unary or binary (plus one ternary operator). A unary operator 
+is applied to one expression. It can be prefixed or suffixed.
