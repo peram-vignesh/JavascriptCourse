@@ -1,0 +1,28 @@
+A function allows you to group code, give it a name and be able to execute it by calling it by name.
+Functions always return a value:
+Explicitly, using the keyword return followed by the value (line 3 of the next example),
+Implicitly, in which case the return value is undefined.
+Add an element at the end of an array using the push method
+Since arrays are objects, we can do much more with them - in particular,
+they have more properties and more methods than the push method. You will learn more 
+about this in a later lesson (Arrays part 2), but for the moment, let's focus on the most useful features...
+Strings are arrays of characters! 
+Consequence:
+They are objects too! 
+They have a length property,
+Each individual character can be accessed using an index
+There are many reasons to use simple quotes when possible:
+Double quotes are used in HTML
+You must hold the Shift key to type "
+Single quotes are easier to read and to type
+To output HTML in JavaScript, single quotes are more useful
+010 equals 8 which means 1 * 8^1 + 0 * 8^0
+The number 0456 means 4 * 8^2 + 5 * 8^1 + 6 * 8^0
+Question 1: What's the result, as an integer, of the operation: 24 - 024?
+Explanation 1: 24 is an integer which equals 24 but 024 is an octal value which equals 20.
+Question 2: Which value will be displayed in the devtool console if you type 098 followed by the Enter key?
+Explanation 2: 9 and 8 don't exist in base 8 (only 0 to 7), so the typed number will be considered as an integer.
+Hexadecimal: 0xF3
+0xFF equals 255, 0xF3 means 15 * 16^1 + 3 * 16^0 and the resulting value is 243
+Examples of octal and hexadecimal data types:
+#notes given by the course organisers
