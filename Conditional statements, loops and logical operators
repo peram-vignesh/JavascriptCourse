@@ -1,0 +1,42 @@
+Logical operators
+The logical operators are: 
+
+&& (AND)  
+usage example : if ((x  > 0) && (x < 10)) {
+                 console.log('x is strictly positive and less than 10');
+             }
+|| (OR)
+usage  example : if ((x  > 0) || (x == -5)) { 
+                 console.log('x is positive or equal to -5'); 
+             }
+! (NOT)
+usage example : if (!(x  > 0)) { 
+                 console.log('x is not positive (x is less or equal to 0'); 
+             }
+&&, || operators are binary, ! is unary. 
+
+Implicit conversions of non boolean values in expressions
+Used with logical operators or within statements, non-boolean values are implicitly converted to booleans.  
+
+All the following values are evaluated as false :
+
+false
+undefined
+null
+0
+NaN
+the empty string ''
+Everything else is evaluated as true!
+
+Comparison operators
+Equal ==
+Not equal !=
+Greater than >
+Greater than or equal >=
+Less than <
+Less than or equal to <=
+Strict equal ===
+Strict not equal !==
+
+The if-then-else ternary operator
+This ternary operator is a shortcut version of if...then...else.
