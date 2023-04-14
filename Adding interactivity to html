@@ -1,0 +1,35 @@
+#NOTES GIVEN BY THE COURSE PROVIDERS
+
+When a user clicks on a link or enters a URL in the address of your Web browser,
+it downloads the page’s HTML text and builds up a model of the document’s structure 
+called the DOM (Document Object Model). This model is used to render the HTML page on the screen.
+
+The DOM is a standard  that describes how a document must be manipulated. It defines a
+“language- and platform neutral interface”. So, every browser offers the same JavaScript DOM API.
+
+The DOM API is a programming interface the JavaScript programmer can use to modify
+the HTML content or the CSS style of HTML elements on the fly.
+
+The DOM API provides the document object as a structured object, a group of 
+nodes represented as a tree. We saw this in Module 1 when we revised the basic principles of HTML .
+
+The document object also exposes a large set of methods to access and manipulate
+the structured document. Through the DOM, look for nodes (html elements that compose
+the page), move nodes, delete nodes, modify nodes (attributes, content), and also handle
+their associated events.
+
+In JavaScript, the DOM is accessible through the property document of the global 
+object window. We rarely manipulate the window object directly as it is implicit:
+window.document is the same as document. 
+
+So by using this object, we can access and manipulate our page from JavaScript as a structured document
+
+There are different types of nodes, but don't worry - the most useful ones are highlighted in bold.
+
+Element (example: <ul></ul>)
+Text (example: <p>the text within the element p is a node of type text</p>)
+Document, DocumentFragment, DocumentType (example: <!doctype html> for html5), Comment 
+(example: <!-- left column -->), ProcessingInstruction (example: <?php echo $name ?>)
+You can also use the "DOM inspector" to locate a particular element with the mouse: click the 
+target icon and click on  the element on the page that you want to inspect, this time with Google Chrome, 
+but you will find this option in all modern browsers' devtool consoles:
