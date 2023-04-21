@@ -1,0 +1,32 @@
+Method #1: iterating using forEach
+The forEach method takes a single argument that is a function/callback that can have one, two or three parameters:
+
+The first parameter is the current element of the array,
+The second parameter (optional) is the index of the current element in the array,
+The third element is the array itself
+
+Method #2: iterating on an array using regular loop statements
+You can use any standard loop statement that we saw during in module 2. The most common way 
+to iterate over an array is to use a for loop from 0 to length-1. 
+
+Using this method allows elements to be iterated two by two, or the loop to be broken in the 
+middle using the break instruction, etc.
+
+the string s behaves like an array, it has the length property like an array, and we can access
+individual characters using indexes that go from 0 to length-1, like arrays...
+
+However... they are not quite the same as arrays!
+
+You cannot add elements to strings using a non-existent index, you cannot use the push/pop methods for 
+adding/removing  characters at the end of the string:
+
+You cannot use push/pop as this raises an error "is not a function" (lines 1-5)
+You can try to put elements out of the range of the string: nothing will happen and the string will 
+remain unchanged (lines 7-17)
+You can't even modify a character using an index. Strings are "read only" when using brackets to access 
+individual characters!
+
+Adding a string at the end of another one using the concat method:
+Adding a string to the end of another one with the + operator
+Adding a string to the beginning of a string using the + operator:
+
