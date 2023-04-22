@@ -1,0 +1,27 @@
+The <audio> element
+Introduction
+HTML5 audio is composed of several layers:
+
+The <audio> element is useful for embedding an audio player into a Web page. It is dedicated 
+for streamed audio. It is very similar to the 
+<video> element, both in its use and in its API.
+The "Web Audio API" is designed for musical applications and for adding sound effects to games. 
+This pure JavaScript API supports manipulation of sound samples (loops, etc.), music synthesis and 
+sound generation (oscillators, etc.). It also comes with a set of predefined sound processing modules
+(reverb, delay, etc.).
+This course focuses on the <audio> element. Please check for  the Web Audio API and other advanced parts of
+HTML5 in W3Cx's HTML5 Apps and Games course.
+The attributes, event set and JavaScript API of the <audio> element are just a "reduced" version of the ones 
+from the <video> element, and here we will only address their differences and peculiarities.
+
+The <video> element
+The <video> element of HTML5 is one of the two "Flash killers" (the other being the <canvas> element).
+It was designed to replace horrible things like embedded Flash objects that we used to encounter not so long ago.
+The controls attribute indicates that a control panel with play/stop/volume/progress widgets should be displayed;
+Usually the browser  will use the first format it recognizes  (in this case, the browser checks whether mp4 is 
+supported, and if not, it will check for the ogg format, and so on). Some browsers may use a different heuristic 
+and choose a "preferred" format.
+The <video> element is a DOM member, so  CSS styling can be applied, as well as manipulation using
+the DOM AP
+
+notes given by course providers
