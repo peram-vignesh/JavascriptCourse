@@ -1,0 +1,19 @@
+//print hello world
+console.log('Hello World');
+
+//swapping variables
+let a = prompt('Enter the first variable: ');
+let b = prompt('Enter the second variable: ');
+[a, b] = [b, a];
+console.log(`The value of a after swapping: ${a}`);
+console.log(`The value of b after swapping: ${b}`);
+
+// program to convert celsius to fahrenheit
+const celsius = prompt("Enter a celsius value: ");
+const fahrenheit = (celsius * 1.8) + 32
+// display the result
+console.log(`${celsius} degree celsius is equal to ${fahrenheit} degree fahrenheit.`);
+
+// generating  a random number
+const a = Math.random();
+console.log(a);
